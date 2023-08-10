@@ -1,4 +1,4 @@
-var x = [
+var x =[
     {
       "userId": 1,
       "id": 1,
@@ -599,9 +599,8 @@ var x = [
       "title": "at nam consequatur ea labore ea harum",
       "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
     }
-  ]
-  for (var i=0;i<(x.length);i++){
-      console.log(x[i].title)
+  ];
 
-  }
-  console.log(x.length);
+x.forEach(item => {
+    console.log(item.title);
+});
